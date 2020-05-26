@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:src="@drawable/index"
+        android:layout_gravity="center"/>
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Arrival Time"
+        android:textStyle="normal"
+        android:textSize="15dp"
+        android:minWidth="150dp"
+        android:textColor="@color/black"
+        android:padding="10dp"
+        android:gravity="center"
+        android:layout_margin="10dp"
+        />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_margin="10dp"
+        android:padding="10dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Hours : "
+            android:textStyle="normal"
+            android:textColor="@color/black"
+            android:padding="10dp"
+
+            />
+
+        <TextView
+            android:id="@+id/txtArrivalHours"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:minWidth="100dp"
+            android:text=""
+            android:textStyle="bold"
+            android:gravity="center"
+            android:textColor="@color/colorAccent"
+            android:padding="10dp"
+            android:background="@drawable/button_border"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Min : "
+            android:textStyle="normal"
+            android:textColor="@color/black"
+            android:padding="10dp"
+
+            />
+
+        <TextView
+            android:id="@+id/txtArrivalMin"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:minWidth="100dp"
+            android:text=""
+            android:textStyle="bold"
+            android:gravity="center"
+            android:textColor="@color/colorAccent"
+            android:padding="10dp"
+            android:background="@drawable/button_border"
+            />
+    </LinearLayout>
+
+
+
+</LinearLayout>

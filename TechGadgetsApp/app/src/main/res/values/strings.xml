@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Tech Gadgets App</string>
+
+    <string name="iphonexs">Apple\'s new phone comes in two sizes: the iPhone XS, with a 5.8-inch display, and the iPhone XS Max, with a 6.5-inch display. ... The iPhone XS Max is 6.2 inches by 3.05 inches by 0.3 inches, and weighs 7.34 ounces (just 17 percent more than the iPhone XS).</string>
+    <string name="galaxys10">Samsung Galaxy S10 is powered by a 1.9GHz octa-core Samsung Exynos 9820 SoC processor. It comes with 8GB of RAM. The Samsung Galaxy S10 runs Android 9.0 and is powered by a 3,400mAh non-removable battery. The Samsung Galaxy S10 supports wireless charging, as well as proprietary fast charging.</string>
+    <string name="googlepixel3">Powering the phone is a Snapdragon 845 processor. The phone has 4GB of RAM and comes in 64GB and 128GB internal storage options. It is a single-SIM device and has an eSIM. At the back, the Pixel 3 has a single 12.2-megapixel camera along with the LED flash.</string>
+    <string name="macbookpro">Each MacBook Pro has a high-resolution, LED-backlit glossy widescreen display. The maximum native resolution on the MacBook is 1,440 by 900 pixels. However, Apple provides a Retina Display option for the MacBook Pro that boosts resolution to 2,880 by 1,800 pixels.</string>
+    <string name="applewatchs4">The largest Apple Watch display yet. Electrical heart sensor. Re-engineered Digital Crown with haptic feedback. Entirely familiar, yet completely redesigned, Apple Watch Series 4 resets the standard for what a watch can be.</string>
+
+    <string name="appinfo">This app is used to show the information related to gadjets.</string>
+</resources>

@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.amtraktrain.MainActivity">
+
+
+    <ImageView
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:src="@drawable/index"
+        android:layout_gravity="center"/>
+    <TextView
+        android:id="@+id/btnBoarding"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Boarding Time"
+        android:textStyle="normal"
+        android:textSize="15dp"
+        android:textColor="@color/black"
+        android:background="@drawable/round_corner_btn_first_screen"
+        android:padding="10dp"
+        android:layout_margin="10dp"
+        />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_margin="10dp"
+        android:padding="10dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Hours : "
+            android:textStyle="normal"
+            android:textSize="13dp"
+            android:textColor="@color/black"
+            android:padding="10dp"
+
+
+            />
+
+        <TextView
+            android:id="@+id/txtHrs"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text=""
+            android:textSize="15dp"
+            android:gravity="center"
+            android:textStyle="bold"
+            android:textColor="@color/colorAccent"
+            android:padding="10dp"
+            android:background="@drawable/button_border"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Minutes : "
+            android:textStyle="normal"
+            android:textColor="@color/black"
+            android:padding="10dp"
+
+            />
+
+        <TextView
+            android:id="@+id/txtMin"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text=""
+            android:gravity="center"
+            android:textStyle="bold"
+            android:textColor="@color/colorAccent"
+            android:padding="10dp"
+            android:background="@drawable/button_border"
+            />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/btnTripTime"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Trip Time"
+        android:textStyle="normal"
+        android:textSize="15dp"
+        android:textColor="@color/black"
+        android:background="@drawable/round_corner_btn_first_screen"
+        android:padding="10dp"
+        android:layout_margin="10dp"
+        />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_margin="10dp"
+        android:padding="10dp">
+
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Minutes : "
+            android:textSize="13dp"
+            android:textStyle="normal"
+            android:textColor="@color/black"
+            android:padding="10dp"
+
+            />
+
+        <TextView
+            android:id="@+id/txtTripTimeMin"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:minWidth="100dp"
+            android:text=""
+            android:textSize="15dp"
+            android:textStyle="bold"
+            android:gravity="center"
+            android:textColor="@color/colorAccent"
+            android:padding="10dp"
+            android:background="@drawable/button_border"
+            />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/btnArivalTime"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Arrival Time"
+        android:textStyle="normal"
+        android:textSize="15dp"
+        android:minWidth="150dp"
+        android:textColor="@color/black"
+        android:background="@drawable/round_corner_btn_first_screen"
+        android:padding="10dp"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:layout_margin="10dp"
+        />
+</LinearLayout>
